@@ -16,5 +16,5 @@ const menu = {
   //menu._price = 1000;
   //console.log(menu.meal = 'd');
   //console.log(menu._meal );
-  console.log(menu.price = 'iiii');
+  console.log(menu.price = '999');
   console.log(menu._price );
