@@ -1,1 +1,3 @@
-const menu = {};
+const menu = {
+    _meal: ''
+};
