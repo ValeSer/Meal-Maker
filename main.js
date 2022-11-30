@@ -19,9 +19,10 @@ const menu = {
         }
       }
   };
-  //menu._meal = 'meatballs';
-  //menu._price = 1000;
-  //console.log(menu.meal = 'd');
-  //console.log(menu._meal );
-  console.log(menu.price = '999');
-  console.log(menu._price );
+menu._meal = 'meatballs';
+menu._price = 1000;
+console.log(menu.meal = 9);
+console.log(menu._meal );
+console.log(menu.price = 65);
+console.log(menu._price );
+console.log(menu.todaySpecial);
