@@ -11,7 +11,13 @@ const menu = {
         return this._price = priceToCheck;
       } else { return 'booooo'}
     },
-    get todaySpecial () {}
+    get todaySpecial () {
+        if (this._meal && this._price) {
+          return `Today's Special is ${this._meal} for £${this._price}!`;
+        } else {
+          return 'Meal or price was not set correctly!';
+        }
+      }
   };
   //menu._meal = 'meatballs';
   //menu._price = 1000;
