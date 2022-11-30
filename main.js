@@ -10,7 +10,8 @@ const menu = {
       if (typeof priceToCheck === 'number') {
         return this._price = priceToCheck;
       } else { return 'booooo'}
-    }
+    },
+    get todaySpecial () {}
   };
   //menu._meal = 'meatballs';
   //menu._price = 1000;
